@@ -12,7 +12,7 @@ for i in range(90000):
     flag += 1
     if(zidian['status'] == 0):
         print flag,ip
-        #print zidian['address']
+        print zidian['address']
         print zidian['content']['point']
         file.write(str(zidian['content']['point'])+'\n')    
 file.close()
